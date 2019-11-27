@@ -4,7 +4,7 @@
   };
 
   Note.prototype.returnNote = function() {
-      return this.text;
+    return this.text;
   };
 
   exports.Note = Note;
