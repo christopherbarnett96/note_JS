@@ -1,9 +1,7 @@
-(function(exports) {
-  function testReturnsNote() {
-    var note = new Note("test text");
+function testReturnsNote() {
+  var note = new Note("test text");
 
-    eval.isTrue(note.returnNote() === "test text");
-  };
+  eval.isTrue(note.returnNote() === "test text");
+};
 
-  testReturnsNote();
-})(this);
+testReturnsNote();
